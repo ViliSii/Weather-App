@@ -1,2 +1,3 @@
-# Weather-App
 Projekti 2b: jQuery-sovellus
+
+Työnjako on pyritty tekemään molemmille mahdollisimman tasaiseksi. Sovelluksen koodia (HTML, CSS & JavaScript) on kirjoittanut Jussi-Pekka ja Vili. Jussi-Pekka on toteuttanut sovelluksessa esimerkiksi tekstit, napit ja virheilmoituksen kun kaupungin hakeminen epäonnistuu. Jussi-Pekka on lisännyt HTML ja CSS koodiin kommentit sekä Vili on lisännyt kommentteja CSS ja Script koodiin. Teeman vaihdon on toteuttanut Vili ja sille tarkoitetun napin Jussi-Pekka. Säätieto laatikot ja niiden sisällön sekä animaatiot on tehnyt Vili. Projektiin on yhteensä käytetty noin 26 tuntia joista molemmilla noin 13 tuntia.
