@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Tumman teeman tyylit */
+.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Vaalean teeman tyylit */
+.light-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Hakukentän leveys */
+#cityInput {
+  width: 200px;
+}
+
+/* Säädatan näyttölaatikkon ulkoasu */
+#weatherContainer {
+  max-width: 400px; /* Määritetään laatikon maksimileveys */
+  margin: 0 auto; /* Keskitetään laatikko sivun leveyden mukaan */
+  border: 2px solid #ffffff; /* Määritetään reunuksen paksuus ja väri */
+  border-radius: 10px; /* Pyöristetään laatikon kulmat */
+  padding: 15px; /* Lisätään hieman sisätilaa sisältöön */
+  position: relative; /* Asetetaan suhteellinen sijainti */
+}
+
+#weatherContainer h2 {
+  margin-bottom: 30px; /* Määritetään väli */
+}
+
+/* Valkoinen reunus vaaleassa teemassa */
+.light-theme #weatherContainer {
+  border-color: #333333;
+}
+
+/* Määritetään monivärinen teksti */
+.multicolored-text {
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00e3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Määritetään animoitu reunus */
+.animated-border {
+  animation: changeBorderColor 5s infinite alternate; /* Muutetaan reunuksen väriä joka 5. sekunti */
+}
+
+@keyframes changeBorderColor {
+  0% {
+    border-color: #ff0000; /* Punainen */
+  }
+  20% {
+    border-color: #ff7300; /* Oranssi */
+  }
+  40% {
+    border-color: #fffb00; /* Keltainen */
+  }
+  60% {
+    border-color: #48ff00; /* Vihreä */
+  }
+  80% {
+    border-color: #00ffd5; /* Syaani */
+  }
+  100% {
+    border-color: #002bff; /* Sininen */
+  }
+}
+
+/* Määritetään lämpötilan väriluokat */
+.temperature-cold {
+  color: #4ca6a6; /* Vaaleansininen kylmälle säälle */
+}
+
+.temperature-hot {
+  color: #ff5e5e; /* Punainen kuumalle säälle */
+}
+
+.temperature-warm {
+  color: rgb(255, 123, 0); /* Oranssi lämpimälle säälle */
+}
+
+.temperature-moderate {
+  color: rgb(199, 171, 81); /* Keltainen kohtuulliselle säälle */
+}
+
+.temperature-zero {
+  color: rgb(162, 167, 238); /* Väri 0°C:lle */
+}
